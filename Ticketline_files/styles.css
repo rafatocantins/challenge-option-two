@@ -112,6 +112,10 @@
 
 /* Main Content */
 
+.logo--mobile {
+    display: none;
+}
+
 .website_area {
     padding: 20px;
 }
@@ -349,6 +353,11 @@ to { transform: translateY(0); }
 
     .website_nav__links img {
         display: none !important;
+    }
+
+    .logo--mobile {
+        display: block;
+        max-width: 150px;
     }
 
     .search__mobile--bar {
