@@ -353,15 +353,6 @@ to { transform: translateY(0); }
         display: block;
     }
 
-    .website_nav__links img {
-        display: none !important;
-    }
-
-    .logo_mobile {
-        display: block;
-        padding-left: 1em;
-    }
-
     .logo_mobile img {
         max-width: 150px;
     }
@@ -441,8 +432,20 @@ to { transform: translateY(0); }
 }
 
 @media only screen and (max-width: 585px) {
+    .website_nav__links img {
+        display: none !important;
+    }
+
+    .logo_mobile {
+        display: block;
+    }
+
+    .ticket_area {
+        padding: 20px 0;
+    }
+
     .page_container {
-        padding: 0;
+        padding: 0 20px;
     }
 
     .search_mobile__bar {
@@ -466,7 +469,7 @@ to { transform: translateY(0); }
         display: none;
     }
 
-    .ticket__title {
+    .ticket_area__title {
         font-size: 24px;
     }
 
